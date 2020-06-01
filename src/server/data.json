@@ -1,0 +1,41 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "RiskQuestions",
+        "type": "multiple",
+        "question": "I have previously put money in a risky investment",
+        "options": [
+          "Strongly Agree",
+          "Agree",
+          "Disagree",
+          "Strongly Disagree",
+          "Neither Agree nor Disagree"
+        ]
+      },
+      {
+        "category": "RiskQuestions",
+        "type": "multiple",
+        "question": "I prefer my money to be safe from risk.",
+        "options": [
+          "Strongly Agree",
+          "Agree",
+          "Disagree",
+          "Strongly Disagree",
+          "Neither Agree nor Disagree"
+        ]
+      },
+      {
+        "category": "RiskQuestions",
+        "type": "multiple",
+        "question": "Your friends would say that you are cautious",
+        "options": [
+          "Strongly Agree",
+          "Agree",
+          "Disagree",
+          "Strongly Disagree",
+          "Neither Agree nor Disagree"
+        ]
+      }
+    ]
+  }

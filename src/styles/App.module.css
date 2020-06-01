@@ -1,0 +1,62 @@
+:root {
+  --red: #131211;
+  --purp: #9e8fc7;
+  --blue: #4f8cdd;
+  --black: #3b2c41;
+  --green: #a3ffc1;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+a:active {
+  color: lightgrey;
+}
+
+.headerBg {
+  height: 100px;
+  background-color: #131211;
+  background-size: 100% 20px;
+}
+
+.myComponent {
+  background-color: #266678;
+  border-radius: 20px;
+  padding: 20px 50px 20px 50px;
+}
+
+.next {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  border: 0;
+}
+
+/* 
+input[type="submit"]:disabled {
+    background: #ccc;
+  } */
+.next_disabled {
+  opacity: 50%;
+}

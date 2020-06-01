@@ -1,0 +1,60 @@
+{
+  "name": "wealth-management-app",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^5.0.1",
+    "cors": "^2.8.5",
+    "eslint-config-airbnb-typescript-prettier": "^2.1.1",
+    "express": "^4.17.1",
+    "framer-motion": "^1.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.0.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start:server": "node ./src/server/server.js",
+    "start:client": "PORT=4500 react-scripts start",
+    "start": "concurrently npm:start:client npm:start:server",
+    "build": "react-scripts build",
+    "format": "prettier --write src/**/*.{js,ts,tsx}",
+    "lint": "eslint --fix src/**/*.{js,ts,tsx}"
+  },
+  "devDependencies": {
+    "awk": "^1.0.0",
+    "concurrently": "^5.1.0",
+    "husky": "^4.2.5",
+    "prettier": "2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
